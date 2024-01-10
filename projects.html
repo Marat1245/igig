@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo-top">
+            <a href="/../"><img src="./img/logo.svg" alt="Логотип компании"></a>
+        </div>
+        <ul class="menu">
+            <li class="menu__li"><a href="">О компании</a> <a href="">О компании</a></li>
+            <li class="menu__li"><a href="">Знаковые проекты </a><a href="">Знаковые проекты </a></li>
+            <li class="menu__li"><a href="">Наши новости</a><a href="">Наши новости</a></li>
+            <li class="menu__li"><a href="">Контакты</a><a href="">Контакты</a></li>
+        </ul>
+        <div class="burger__menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="7" viewBox="0 0 9 7" fill="none">
+                <rect y="4" width="0.999999" height="9" rx="0.5" transform="rotate(-90 0 4)" fill="#707274" />
+                <rect y="1" width="0.999999" height="6" rx="0.5" transform="rotate(-90 0 1)" fill="#707274" />
+                <rect x="7" y="1" width="1" height="2" rx="0.5" transform="rotate(-90 7 1)" fill="#707274" />
+                <rect y="7" width="0.999999" height="9" rx="0.5" transform="rotate(-90 0 7)" fill="#707274" />
+            </svg>
+        </div>
+        <div class="menu__mobile">
+            <div class="menu__mobile__logo"></div>
+            <div class="menu__mobile__close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27" fill="none">
+                    <rect x="7.13611" y="20.5714" width="1" height="19" rx="0.5"
+                        transform="rotate(-134.94 7.13611 20.5714)" fill="#707274" />
+                    <rect x="20.5712" y="19.8644" width="0.999998" height="19" rx="0.499999"
+                        transform="rotate(135 20.5712 19.8644)" fill="#707274" />
+                </svg>
+            </div>
+            <ul class="menu ">
+                <li class="menu__li"><a href="">О компании</a> <a href="">О компании</a> </li>
+                <li class="menu__li"><a href="">Знаковые проекты </a><a href="">Знаковые проекты </a></li>
+                <li class="menu__li"><a href="">Наши новости</a><a href="">Наши новости</a></li>
+                <li class="menu__li"><a href="">Контакты</a><a href="">Контакты</a></li>
+            </ul>
+        </div>
+
+        <div class="burger__fix fz16">
+            <div class="burger__menu ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="7" viewBox="0 0 9 7" fill="none">
+                    <rect y="4" width="0.999999" height="9" rx="0.5" transform="rotate(-90 0 4)" fill="#fff" />
+                    <rect y="1" width="0.999999" height="6" rx="0.5" transform="rotate(-90 0 1)" fill="#fff" />
+                    <rect x="7" y="1" width="1" height="2" rx="0.5" transform="rotate(-90 7 1)" fill="#fff" />
+                    <rect y="7" width="0.999999" height="9" rx="0.5" transform="rotate(-90 0 7)" fill="#fff" />
+                </svg>
+
+            </div>
+            Меню
+        </div>
+
+
+    </nav>
+
+
+    <section class="header__name">
+        <div class="header__name__img__wrap">
+            <div class="header__name__img" style="background-image: url(./img/header__02.png);"></div>
+        </div>
+        <div class="header__name__bg"></div>
+        <h1 class="center__wrap-l-r">Знаковые проекты </h1>
+    </section>
+
+    <section class="center grid__right type__03">
+        <div class="center__title__wrap">
+            <p class="subtext__wrap__bold">С момента образования компании выполнено более 150 проектов в 31 регионе
+                Российской Федерации, а также в
+                Австрии, Словакии и Грузии. Среди них 50 проектов в области инфраструктурного строительства, более 30 в
+                нефтегазовой отрасли, один для нужд Росатома.</p>
+        </div>
+
+
+
+    </section>
+
+    <section class="center__wrap-l-r map__wrap">
+        <div class="map">
+            <img class="map__bg" src="./img/map.svg" alt="">
+            <img class="pin" src="./img/pin.svg" alt="">
+            <img class="pin" src="./img/pin.svg" alt="" style="left: 20%">
+            <img class="pin" src="./img/pin.svg" alt="" style="left: 80%">
+            <img class="pin-small" src="./img/pin-small.svg" alt="">
+            <div class="card__project">
+                <div class="card__project__wrap fz16">
+                    <!-- Swiper -->
+                    <div class="swiper projectSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./img/project__card__01.png" alt="">
+
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/project__card__02.png" alt="">
+
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/project__card__03.png" alt="">
+
+                            </div>
+                        </div>
+                        <div class="project-button-next">
+                            <img src="./img/arrow__blue-right.svg" alt="">
+                        </div>
+                        <div class="project-button-prev">
+                            <img src="./img/arrow__blue.svg" alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="subtext__wrap__bold">Детский сад «Мамонтенок», г. Салехард</div>
+                    <div><span class="fz16-med">Заказчик:</span> Группа «ВИС»</div>
+                    <div><span class="fz16-med">Вид работ:</span> Инженерные изыскания, техническое обследование зданий
+                        и
+                        сооружений,
+                        геоконсалтинг,
+                        геотехнический мониторинг, геомеханическое и теплотехническое моделирование и прогноз</div>
+                    <div><span class="fz16-med">Основные особенности:</span> Район распространения многолетнемерзлых
+                        грунтов
+                        с большой
+                        изменчивостью их кровли и температур, а также с высокой техногенной нагрузкой (как тепловой, так
+                        и
+                        механической).
+
+                        Выполнен целый комплекс работ по уточнению состояния конструкций и грунтов основания
+                        существующего сооружения, построены геомеханическая и теплотехничекская трехмерные
+                        модели, а также выполнен совмещенный количественный прогноз температур, деформаций и
+                        несущей способности грунтов и конструкций.
+
+                        Результаты прогноза верифицированы по результатам проведения геотехнического
+                        мониторинга.</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="project__list center__wrap-l-r">
+        <div class="center">
+            <ul class="subtext__wrap__bold mb-40px">
+                <li class="project__list__act">Все</li>
+                <li>Крымский <span>кластер</span></li>
+                <li>Автодорожный <span>сектор</span></li>
+                <li>Железнодорожный <span>сектор</span></li>
+                <li>Авиационный <span>сектор</span></li>
+                <li>Нефтегазовый <span>сектор</span></li>
+                <li>Промышленный <span>сектор</span></li>
+                <li>Портовые <span>сооружения</span></li>
+                <li>Гидроэнергетический <span>сектор</span></li>
+                <li>Инфраструктурный <span>сектор</span></li>
+            </ul>
+            <select name="type-project" id="type-project" class="bottom select mb-40px">
+                <option value="">Все</option>
+                <option value="До 300 тыс рублей">Крымский кластер</option>
+                <option value="От 300 до 1 млн рублей">Автодорожный сектор</option>
+                <option value="От 1 до 3 млн рублей">Железнодорожный сектор</option>
+                <option value="От 3 до 5 млн рублей">Авиационный сектор</option>
+                <option value="т 5 до 10 млн рублей">Нефтегазовый сектор</option>
+                <option value="От 10 млн рублей">Промышленный сектор</option>
+                <option value="От 10 млн рублей">Портовые сооружения</option>
+                <option value="От 10 млн рублей">Гидроэнергетический сектор</option>
+                <option value="От 10 млн рублей">Инфраструктурный сектор</option>
+            </select>
+            <div class="show__project show__project__wrap">
+                <div class="a show__project__card">
+                    <div class=" show__project__big ">
+                        <div class="show__project__city title">г. Салехард</div>
+                        <div class="show__project__name title">Детский сад «Мамонтенок»</div>
+                    </div>
+                    <img src="./img/project__01.png" alt="">
+                </div>
+                <div class="b show__project__card">
+                    <div class="show__project__small">
+                        <div class="show__project__city subtext__wrap__bold">Москва-Нижний Новгород- Казань</div>
+                        <div class="show__project__name fz16 ">М-12 «Строящаяся скоростная автомобильная
+                            дорога. Этапы 1 и 5</div>
+                    </div>
+                    <img src="./img/project__01.png" alt="">
+                </div>
+                <div class="c show__project__card">
+                    <div class="show__project__small">
+                        <div class="show__project__city subtext__wrap__bold">Москва-Нижний Новгород- Казань</div>
+                        <div class="show__project__name fz16 ">М-12 «Строящаяся скоростная автомобильная
+                            дорога. Этапы 1 и 5</div>
+                    </div>
+                    <img src="./img/project__01.png" alt="">
+                </div>
+                <div class="d show__project__card">
+                    <div class="show__project__small">
+                        <div class="show__project__city subtext__wrap__bold">Москва-Нижний Новгород- Казань</div>
+                        <div class="show__project__name fz16 ">М-12 «Строящаяся скоростная автомобильная
+                            дорога. Этапы 1 и 5</div>
+                    </div>
+                    <img src="./img/project__01.png" alt="">
+                </div>
+                <div class="e show__project__card">
+                    <div class="show__project__small">
+                        <div class="show__project__city subtext__wrap__bold">Москва-Нижний Новгород- Казань</div>
+                        <div class="show__project__name fz16 ">М-12 «Строящаяся скоростная автомобильная
+                            дорога. Этапы 1 и 5</div>
+                    </div>
+                    <img src="./img/project__01.png" alt="">
+                </div>
+                <div class="f show__project__card">
+                    <div class="show__project__small">
+                        <div class="show__project__city subtext__wrap__bold">Москва-Нижний Новгород- Казань</div>
+                        <div class="show__project__name fz16 ">М-12 «Строящаяся скоростная автомобильная
+                            дорога. Этапы 1 и 5</div>
+                    </div>
+                    <img src="./img/project__01.png" alt="">
+                </div>
+
+            </div>
+            <div class="show__project show__project__wrap show__project__right">
+                <a class="a show__project__card">
+                    <div class=" show__project__big ">
+                        <div class="show__project__city title">г. Салехард</div>
+                        <div class="show__project__name title">Детский сад «Мамонтенок»</div>
+                    </div>
+                    <img src="./img/project__01.png" alt="">
+                </a>
+                <a class="b show__project__card">
+                    <div class="show__project__small">
+                        <div class="show__project__city subtext__wrap__bold">Москва-Нижний Новгород- Казань</div>
+                        <div class="show__project__name fz16 ">М-12 «Строящаяся скоростная автомобильная
+                            дорога. Этапы 1 и 5</div>
+                    </div>
+                    <img src="./img/project__01.png" alt="">
+                </a>
+                <a class="c show__project__card">
+                    <div class="show__project__small">
+                        <div class="show__project__city subtext__wrap__bold">Москва-Нижний Новгород- Казань</div>
+                        <div class="show__project__name fz16 ">М-12 «Строящаяся скоростная автомобильная
+                            дорога. Этапы 1 и 5</div>
+                    </div>
+                    <img src="./img/project__01.png" alt="">
+                </a>
+                <a class="d show__project__card">
+                    <div class="show__project__small">
+                        <div class="show__project__city subtext__wrap__bold">Москва-Нижний Новгород- Казань</div>
+                        <div class="show__project__name fz16 ">М-12 «Строящаяся скоростная автомобильная
+                            дорога. Этапы 1 и 5</div>
+                    </div>
+                    <img src="./img/project__01.png" alt="">
+                </a>
+                <a class="e show__project__card">
+                    <div class="show__project__small">
+                        <div class="show__project__city subtext__wrap__bold">Москва-Нижний Новгород- Казань</div>
+                        <div class="show__project__name fz16 ">М-12 «Строящаяся скоростная автомобильная
+                            дорога. Этапы 1 и 5</div>
+                    </div>
+                    <img src="./img/project__01.png" alt="">
+                </a>
+                <a class="f show__project__card">
+                    <div class="show__project__small">
+                        <div class="show__project__city subtext__wrap__bold">Москва-Нижний Новгород- Казань</div>
+                        <div class="show__project__name fz16 ">М-12 «Строящаяся скоростная автомобильная
+                            дорога. Этапы 1 и 5</div>
+                    </div>
+                    <img src="./img/project__01.png" alt="">
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section class="footer__call  bg__light-grey">
+        <div class="footer__call__left">
+            <h3 class="mb-40px">Получить консультацию</h3>
+            <div class="gap-12px fd-c">
+                <a href="tel:+7 (499) 110-19-98" class="bottom bottom__dark">
+                    <div class="bottom__anima"></div>
+                    <div>+7 (499) 110-19-98</div>
+
+                </a>
+                <a href="mailto:info@igig.company" class="bottom bottom__blue">
+                    <div class="bottom__anima"></div>
+                    <div class="">info@igig.company</div>
+
+                </a>
+                <a href="mailto:info@igig.company" class="bottom bottom__blue">
+                    <div class="bottom__anima"></div>
+                    <div class="">Telegram</div>
+
+                </a>
+
+                <div class="footer__call__who">
+                    <span class="title">Александр Гаврилов</span>
+                    <p>Генеральный директор, главный инженер</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="footer__call__right">
+            <form action="./mail.php" method="POST" id="contact" type="submit" class="form gap-12px fd-c ">
+                <input type="text" name="name" id="name" placeholder="Имя" />
+                <input type="text" name="phone" id="phone" placeholder="+7(000)000-00-00" required />
+                <div class="input__file">
+                    <img src="./img/file.svg" alt="">
+                    <label for="file" class="label__file ">Прикрепить файл</label>
+                    <span></span>
+                </div>
+
+                <input type="file" name="file" id="file" class="file"
+                    accept=".doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*,.pdf">
+
+
+                <button type="submit" id="callback-send" class="bottom__green bottom">
+                    <div class="bottom__anima"></div>
+                    <span>Отправить</span>
+
+                </button>
+                <div class="under-text">
+                    Заполняя форму, я соглашаюсь с условиями передачи информации и политикой обработки <a href=""
+                        class="under-text">персональных данных</a>
+                </div>
+            </form>
+
+
+
+
+        </div>
+    </section>
+    <footer class="footer bg__light-grey ">
+        <div class="space-between center__wrap-l-r ">
+            <div class="under-text">Инженерная геолония и геотехника © все права защищены</div>
+            <a href="" class="under-text">Политика конфиденциальности</a>
+        </div>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
